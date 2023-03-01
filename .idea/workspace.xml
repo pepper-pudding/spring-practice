@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3befba99-dc24-4a49-a5e5-24e22b8946eb" name="Changes" comment="" />
+    <list default="true" id="3befba99-dc24-4a49-a5e5-24e22b8946eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/MemoryMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,11 +43,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MP5OfKSAYKMpPwAe7bHLOfJGXJ" />
   <component name="ProjectViewState">
@@ -55,7 +67,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager">
