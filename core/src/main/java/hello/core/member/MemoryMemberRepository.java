@@ -1,4 +1,4 @@
-package hello.core;
+package hello.core.member;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,6 +14,6 @@ public class MemoryMemberRepository implements MemberRepository {
 
     @Override
     public Member findById(Long memberId) {
-        return null;
+        return store.get(memberId);
     }
 }
