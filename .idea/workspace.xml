@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3befba99-dc24-4a49-a5e5-24e22b8946eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/DiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/discount/FixDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/order/OrderServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +66,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MemberServiceTest.join">
+  <component name="RunManager" selected="JUnit.OrderServiceTest.createOrder">
     <configuration name="CoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.core.CoreApplication" />
       <module name="core.core.main" />
@@ -113,8 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderServiceTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.order" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceTest" />
+      <option name="METHOD_NAME" value="createOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderServiceTest.createOrder" />
         <item itemvalue="JUnit.MemberServiceTest.join" />
         <item itemvalue="Application.MemberApp" />
         <item itemvalue="Application.CoreApplication" />
