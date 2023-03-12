@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3befba99-dc24-4a49-a5e5-24e22b8946eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/beanfind/ApplicationContextInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/beanfind/ApplicationContextBasicFindTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,38 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationContextInfoTest">
+  <component name="RunManager" selected="JUnit.ApplicationContextBasicFindTest.findBeanByNameX">
+    <configuration name="ApplicationContextBasicFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.beanfind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextBasicFindTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextBasicFindTest.findBeanByNameX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.beanfind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextBasicFindTest" />
+      <option name="METHOD_NAME" value="findBeanByNameX" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationContextInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello.core.test" />
       <extension name="coverage">
@@ -126,42 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello.core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.member" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.member.MemberServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hello.core in hello.core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello.core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByNameX" />
+        <item itemvalue="JUnit.ApplicationContextBasicFindTest" />
         <item itemvalue="JUnit.ApplicationContextInfoTest" />
         <item itemvalue="JUnit.ApplicationContextInfoTest.findApplicationBean" />
         <item itemvalue="JUnit.ApplicationContextInfoTest.findAllBean" />
-        <item itemvalue="JUnit.hello.core in hello.core.test" />
-        <item itemvalue="JUnit.MemberServiceTest" />
       </list>
     </recent_temporary>
   </component>
